@@ -74,12 +74,15 @@ window对象对应着浏览器本身，它的属性和方法统称为BOM(浏览�
 可以在任意元素上应用class属性和id属性，用于区分
 * 获取元素节点     
 
+getElementById(id) 通过元素ID    
+`document.getElementById("purchases");`   
 
-getElemmentById() 通过元素ID    
+getElementsByTagName(tag) 通过标签名字   
+`document.getElementsByTagName("li");`     
 
-getElemmentsByTagName() 通过标签名字   
+getElementsByClassName() 通过类名字   
+`document.getElementsByClassName("sale")`     
 
-getElemmentsByClassName() 通过类名字   
 
 * 获取和设置属性    
 
