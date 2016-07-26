@@ -90,3 +90,29 @@ HTML 图像是通过 `<img>` 标签进行定义的。。
   </body>
 </html>
 ```
+## class属性和id属性 
+class属性可以多个元素共有，id属性是每个元素独有的。例如： 
+
+```html
+  <p class ="special"> Don't forget!</p>
+  <ul id ="purchases"> 
+  ```
+   
+可以在css中设置不同class和id的样式    
+
+```css
+.special{
+  color: red;
+  font-family: "arial", sans-serif;
+  font-size: 1.5em;
+}
+```
+或者
+```css
+h2.special{
+  color: red;
+  font-family: "arial", sans-serif;
+  font-size: 1.5em;
+}
+```
+
