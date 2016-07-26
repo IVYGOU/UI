@@ -11,26 +11,26 @@ HTML 标题（Heading）是通过` <h1> - <h6>` 等标签进行定义的。
 ```
 * 段落   
 
-HTML 段落是通过 <p> 标签进行定义的。
+HTML 段落是通过 `<p>` 标签进行定义的。
 ```html
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 ```
 * 链接     
 
-HTML 链接是通过 <a> 标签进行定义的。
+HTML 链接是通过 `<a>` 标签进行定义的。
 ```html
 <a href="http://www.w3school.com.cn">This is a link</a>
 ```
 * 图像   
 
-HTML 图像是通过 <img> 标签进行定义的。。
+HTML 图像是通过 `<img>` 标签进行定义的。。
 ```html
 <img src="w3school.jpg" width="104" height="142" />
 ```
 * 无序列表     
 
-<ul> 标签定义无序列表。  
+`<ul>` 标签定义无序列表。  
 
  ```html
 <ul>
@@ -41,7 +41,7 @@ HTML 图像是通过 <img> 标签进行定义的。。
 
 * 有序列表     
 
-<ol> 标签定义无序列表。  
+`<ol>` 标签定义无序列表。  
 
  ```html
 <ol>
