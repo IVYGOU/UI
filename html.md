@@ -1,7 +1,7 @@
 ## html标签
 
 * 标题
-HTML 标题（Heading）是通过 <h1> - <h6> 等标签进行定义的。
+HTML 标题（Heading）是通过` <h1> - <h6>` 等标签进行定义的。
 
 ```html
 <h1>This is a heading</h1>
@@ -24,10 +24,33 @@ HTML 图像是通过 <img> 标签进行定义的。。
 ```html
 <img src="w3school.jpg" width="104" height="142" />
 ```
+* 无序列表 
+
+ ```html
+<ul> 标签定义无序列表。
+<ul>
+   <li>Coffee</li>
+   <li>Tea</li>
+</ul>
+```
+* 列表项目   
+
+<li> 标签定义列表项目。   
+
+<li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中。  
 
 ```html
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<ol>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+</ol>
+
+<ul>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+</ul>
 ```
 
 ```html
