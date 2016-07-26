@@ -9,3 +9,16 @@ selector {
 }
 ```
 
+
+* CSS 显示元素时使用的颜色，字体，字号
+
+```css
+p {
+  color: yellow;
+  font-family: "arial", sans-serif;
+  font-size: 1.2em;
+}
+```
+
+## 继承
+节点上的各个元素将继承其父元素的样式属性
