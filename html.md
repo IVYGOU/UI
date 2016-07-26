@@ -114,5 +114,15 @@ h2.special{
   font-family: "arial", sans-serif;
   font-size: 1.5em;
 }
-```
+```   
+
+id属性  
+
+```css
+#purchases {
+  color: red;
+  font-family: "arial", sans-serif;
+  font-size: 1.5em;
+}
+```   
 
