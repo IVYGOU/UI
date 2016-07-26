@@ -87,8 +87,19 @@ getElementsByClassName() 通过类名字
 * 获取和设置属性    
 
 
-getAttribute() 查询节点属性   
+object.getAttribute(attribute) 查询节点属性   
 
-setAttribute()  修改节点属性  
+```javascript
+var paras = document.getElementsByTagName("p")
+for (var i = 0; i < paras.length; i++) {
+  alert(paras[i].getAttribute("title"));
+}
+```  
+
+object.setAttribute(attribute,value)  修改节点属性    
+```javascript
+var shopping = document.getElementById("purchases");
+shopping.getAttribute("title", "a list of goods");
+```
 
 
