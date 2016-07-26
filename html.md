@@ -70,7 +70,8 @@ HTML 图像是通过 `<img>` 标签进行定义的。。
    <li>Milk</li>
 </ul>
 ```
-
+     
+具体实例：
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -87,6 +88,5 @@ HTML 图像是通过 `<img>` 标签进行定义的。。
   </ul>
   <body>
   </body>
-
 </html>
 ```
