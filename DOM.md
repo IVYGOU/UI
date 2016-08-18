@@ -35,8 +35,9 @@ javascript中有三种对象：
 
 3.宿主对象(host object)    
 
-由浏览器提供的对象，最基础的对象是window    
+由浏览器提供的对象（BOM），最基础的对象是window，它表示浏览器的一个实例。
 
+window：既是通过Javascript访问浏览器的一个接口，又是ECMAScript规定的Global对象。
 
 window对象对应着浏览器本身，它的属性和方法统称为BOM(浏览器对象模型)
 
@@ -70,7 +71,12 @@ window对象对应着浏览器本身，它的属性和方法统称为BOM(浏览�
 属性节点
 
 
-## DOM操作
+## DOM操作  
+
+DOM就是浏览器为JavaScript提供的一系列接口（通过window.documnet提供的），通过这些接口我们可以操作web页面。
+
+注意：但DOM并不是编程语言，它是文档对象的模型，该模型是独立于编程语言的。也可以在Pyhton中操作。
+
 可以在任意元素上应用class属性和id属性，用于区分
 * 获取元素节点     
 
