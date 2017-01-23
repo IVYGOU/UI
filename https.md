@@ -1,3 +1,5 @@
+Origin:https://zhuanlan.zhihu.com/p/24854237                
+
 **https就是套在SSL/TLS内的http，也就是安全的http。**     
 
 **SSL/TLS**：
@@ -8,3 +10,5 @@ Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), 
 - 通信内容的保密
 - 通信双方身份不可伪造
 - 通信内容不被篡改
+
+## 1. 通信内容的保密
