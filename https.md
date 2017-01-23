@@ -1,4 +1,4 @@
-**https就是套在SSL/TLS内的http，也就是安全的http。**                                              
+**https就是套在SSL/TLS内的http，也就是安全的http。**                                                                      
 **SSL/TLS**：
 Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), both frequently referred to as "SSL", are cryptographic protocols that provide communications security over a computer network.                  
 (https://en.wikipedia.org/wiki/Transport_Layer_Security)                              
