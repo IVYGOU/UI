@@ -14,14 +14,16 @@ Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), 
 ## 1. 通信内容的保密
 非对称加密算法：需要两个密钥来进行加密和解密，这两个秘钥是公开密钥（public key，简称公钥）和私有密钥（private key，简称私钥）。
 
+公钥加密，私钥解密。
+
+
+
 ## 2. 通信双方身份不可伪造
+所有加密通信都要带上一个证书，用来证明自己的身份。证书上的公章也是非对称加密过的。
+
+私钥加密，公钥解密。
 
 
+## 3. 通信内容不被篡改
 
-
-
-
-
-
-
-Origin:https://zhuanlan.zhihu.com/p/24854237    
+Origin:https://zhuanlan.zhihu.com/p/24854237    
