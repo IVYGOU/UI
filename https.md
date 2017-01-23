@@ -1,4 +1,4 @@
-Origin:https://zhuanlan.zhihu.com/p/24854237                
+            
 
 **https就是套在SSL/TLS内的http，也就是安全的http。**     
 
@@ -12,3 +12,16 @@ Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), 
 - 通信内容不被篡改
 
 ## 1. 通信内容的保密
+非对称加密算法：需要两个密钥来进行加密和解密，这两个秘钥是公开密钥（public key，简称公钥）和私有密钥（private key，简称私钥）。
+
+## 2. 通信双方身份不可伪造
+
+
+
+
+
+
+
+
+
+Origin:https://zhuanlan.zhihu.com/p/24854237    
